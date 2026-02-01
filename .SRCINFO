@@ -1,4 +1,4 @@
-pkgbase = libspecbleach
+pkgbase = libspecbleach-dl1bz
 	pkgdesc = C library for audio noise reduction
 	pkgver = 0.1.6
 	pkgrel = 3
