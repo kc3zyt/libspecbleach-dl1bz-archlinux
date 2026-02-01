@@ -1,0 +1,18 @@
+pkgbase = libspecbleach
+	pkgdesc = C library for audio noise reduction
+	pkgver = 0.1.6
+	pkgrel = 3
+	url = https://github.com/dl1bz/libspecbleach
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = fftw
+	makedepends = meson
+	depends = glibc
+	provides = libspecbleach.so
+	source = git+https://github.com/dl1bz/libspecbleach.git
+	sha512sums = SKIP
+
+pkgname = libspecbleach-dl1bz
+	depends = glibc
+	depends = fftw
+	depends = libfftw3f.so
